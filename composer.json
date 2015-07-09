@@ -1,0 +1,21 @@
+{
+    "name": "maloyfoogel/yii2-ldap-module",
+    "description": "yii2 adldap extention (wrapper for adldap/adLDAP Module)",
+    "type": "yii2-extension",
+    "keywords": ["active directory","ldap","yii2", "adldap", "ad"],
+    "time": "2015-07-09",
+    "license": "LGPL-2.1",
+    "authors": [
+        {
+            "name": "mvagner"
+        }
+    ],
+    "require": {
+        "strebl/adldap": "*"
+    },
+    "autoload": {
+        "psr-4" : {
+            "maloyfoogel\\" : "src/"
+        }
+    }
+}
